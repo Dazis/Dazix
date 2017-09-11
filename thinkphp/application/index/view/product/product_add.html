@@ -1,0 +1,103 @@
+{include file="common/header" /}
+{include file="common/menu" /}
+<section class="Hui-article-box">
+<div class="pd-20">
+  <form action="{:url('Product/product_add_do')}" method="post" class="form form-horizontal" id="form-user-add">
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品名称：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="pname">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品分类：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="c_id">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品期限：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="product_deadline">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品开始时间：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="productstart_time">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+	<div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品结束时间：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="productend_time">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+	
+	<div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品最低可投金额：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="minimum_money">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品最高可投金额：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="highest_money">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+   <!--  <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2">产品介绍：</label>
+      <div class="formControls col-5">
+        <textarea name="beiz" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,100)"></textarea>
+        <p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>
+      </div> -->
+      <div class="col-5"> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-9 col-offset-2">
+        <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+<!--_footer 作为公共模版分离出去--> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+
+<!-- <script type="text/javascript" src="/thinkphp/public/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/thinkphp/public/static/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/static/h-ui.admin/js/H-ui.admin.page.js"></script>  -->
+<!--/_footer /作为公共模版分离出去--> 
+
+<!--请在下方写此页面业务相关的脚本--> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	
+});
+</script>
+</body>
+</html>
+{include file="common/footer" /}
