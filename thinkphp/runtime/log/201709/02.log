@@ -1,0 +1,1738 @@
+---------------------------------------------------------------
+[ 2017-09-02T14:37:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.024170s][吞吐率：41.37req/s] [内存消耗：1,053.48kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:38:01+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.021850s][吞吐率：45.77req/s] [内存消耗：1,003.56kb] [文件加载：31]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '155',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:38:04+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.021582s][吞吐率：46.33req/s] [内存消耗：1,003.88kb] [文件加载：31]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '168',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:49:54+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.030743s][吞吐率：32.53req/s] [内存消耗：1,171.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:49:56+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.023212s][吞吐率：43.08req/s] [内存消耗：1,003.88kb] [文件加载：31]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '168',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:50:16+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.030245s][吞吐率：33.06req/s] [内存消耗：1,171.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:50:18+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.022787s][吞吐率：43.88req/s] [内存消耗：1,052.87kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:50:19+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.018912s][吞吐率：52.88req/s] [内存消耗：1,052.15kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:51:20+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025185s][吞吐率：39.71req/s] [内存消耗：1,169.83kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:51:22+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.018272s][吞吐率：54.73req/s] [内存消耗：1,052.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.021239s][吞吐率：47.08req/s] [内存消耗：1,052.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020416s][吞吐率：48.98req/s] [内存消耗：1,169.75kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:52:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.023838s][吞吐率：41.95req/s] [内存消耗：1,169.88kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:52:29+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.018948s][吞吐率：52.78req/s] [内存消耗：1,052.37kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020848s][吞吐率：47.97req/s] [内存消耗：1,169.93kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:53:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.022493s][吞吐率：44.46req/s] [内存消耗：1,169.88kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.024569s][吞吐率：40.70req/s] [内存消耗：1,170.09kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.023351s][吞吐率：42.82req/s] [内存消耗：1,170.27kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:55:57+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025216s][吞吐率：39.66req/s] [内存消耗：1,170.27kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:56:48+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025637s][吞吐率：39.01req/s] [内存消耗：1,170.88kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:56:50+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020507s][吞吐率：48.76req/s] [内存消耗：1,052.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:57:13+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025605s][吞吐率：39.05req/s] [内存消耗：1,170.26kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:58:11+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.022194s][吞吐率：45.06req/s] [内存消耗：1,170.44kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:58:25+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.024176s][吞吐率：41.36req/s] [内存消耗：1,170.44kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:59:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.026404s][吞吐率：37.87req/s] [内存消耗：1,170.45kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:59:24+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.027785s][吞吐率：35.99req/s] [内存消耗：1,170.41kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:59:34+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.024509s][吞吐率：40.80req/s] [内存消耗：1,170.39kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T14:59:45+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020004s][吞吐率：49.99req/s] [内存消耗：1,170.40kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:00:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.021847s][吞吐率：45.77req/s] [内存消耗：1,170.40kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:00:19+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020622s][吞吐率：48.49req/s] [内存消耗：1,170.36kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:00:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025134s][吞吐率：39.79req/s] [内存消耗：1,052.39kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:01:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.028214s][吞吐率：35.44req/s] [内存消耗：1,170.08kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:01:55+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020521s][吞吐率：48.73req/s] [内存消耗：1,052.35kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:02:04+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.023313s][吞吐率：42.89req/s] [内存消耗：1,170.08kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:03:04+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.023293s][吞吐率：42.93req/s] [内存消耗：1,170.30kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:03:12+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025127s][吞吐率：39.80req/s] [内存消耗：1,052.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:03:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.018228s][吞吐率：54.86req/s] [内存消耗：1,052.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:06:07+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.027021s][吞吐率：37.01req/s] [内存消耗：1,171.41kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:06:08+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.018553s][吞吐率：53.90req/s] [内存消耗：938.77kb] [文件加载：29]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '168',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:06:40+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.026214s][吞吐率：38.15req/s] [内存消耗：1,170.77kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:06:43+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.018137s][吞吐率：55.14req/s] [内存消耗：938.89kb] [文件加载：29]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '173',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+  'ips' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:06:59+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.026120s][吞吐率：38.28req/s] [内存消耗：1,170.77kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:07:01+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.018583s][吞吐率：53.81req/s] [内存消耗：938.88kb] [文件加载：29]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '188',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+  'ips' => '180.175.203.190',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:11:37+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp/public/index.php/index/login/login_add.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/login_add.html [运行时间：0.027972s][吞吐率：35.75req/s] [内存消耗：1,004.02kb] [文件加载：31]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '188',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'referer' => 'http://www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+  '__RequestVerificationToken' => 'fkfh8D89BFqTdrE2iiSdG_L781RSRtdWOH411poVUWhxzA5MzI8es07g6KPYQh9Log-xf84pIR2RIAEkOokZL3Ee3UKmX0Jc8bW8jOdhqo81',
+  'userName' => '',
+  'password' => '',
+  'rememberMe' => '1',
+  'ips' => '180.175.203.190',
+)
+[ info ] [ RUN ] app\index\controller\Login->login_add[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:32:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025332s][吞吐率：39.48req/s] [内存消耗：1,171.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:32:32+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.039759s][吞吐率：25.15req/s] [内存消耗：1,052.51kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.027268s][吞吐率：36.67req/s] [内存消耗：1,171.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:33:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020043s][吞吐率：49.89req/s] [内存消耗：1,052.51kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:33:52+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.024881s][吞吐率：40.19req/s] [内存消耗：1,171.43kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:33:57+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020141s][吞吐率：49.65req/s] [内存消耗：1,052.50kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:35:23+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.027029s][吞吐率：37.00req/s] [内存消耗：1,171.01kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:35:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020591s][吞吐率：48.56req/s] [内存消耗：1,052.52kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:35:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.022918s][吞吐率：43.63req/s] [内存消耗：1,171.01kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:35:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.021148s][吞吐率：47.29req/s] [内存消耗：1,052.52kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:48:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.023752s][吞吐率：42.10req/s] [内存消耗：1,172.56kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:48:34+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.035916s][吞吐率：27.84req/s] [内存消耗：1,052.52kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:51:23+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.030606s][吞吐率：32.67req/s] [内存消耗：1,170.87kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T15:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.020316s][吞吐率：49.22req/s] [内存消耗：1,052.77kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T16:01:16+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.duoduoguanli.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.026185s][吞吐率：38.19req/s] [内存消耗：1,173.13kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Duoduoguanli\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=9731111936',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.duoduoguanli.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Duoduoguanli\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Duoduoguanli\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
