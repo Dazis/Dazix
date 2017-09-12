@@ -9,37 +9,35 @@
 			<table class="table table-border table-bordered table-hover table-bg">
 				<thead>
 					<tr>
-						<th colspan="6" scope="col">角色管理</th>
+						<th colspan="8" scope="col">角色管理</th>
 					</tr>
 					<tr class="text-c">
 						<th width="25"><input type="checkbox" name="" value=""></th>
-						<th width="40">ID</th>
-						<th width="200">产品昵称</th>
-						<th>分类ID</th>
-						<th width="300">产品期限</th>
-						<th>开始时间</th>
-						<th>结束时间</th>
-						<th>最低可投</th>
-						<th>介绍</th>
+						<th width="40">标题昵称</th>
+						<th width="200">标题图片</th>
+						<th width="200">健康介绍</th>
+						<th width="300">健康内容</th>
+						<th width="40">所属健康分类</th>
+						<th width="100">创建健康文章时间</th>
 						<th width="70">操作</th>
 					</tr>
 				</thead>
 				<tbody>
+				<?php foreach ($res as $key => $value): ?>
 					<tr class="text-c aaa" attr="">
 						<td><input type="checkbox" name="" value=""></td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
-						<td>1</td>
+						<td><?= $value['title'] ?></td>
+						<td><img src="../../../uploads/<?= $value['img'] ?>" alt="" width="50px;"></td>
+						<td><?= $value['intro'] ?></td>
+						<td><?= $value['content'] ?></td>
+						<td><?= $value['type_name'] ?></td>
+						<td><?= $value['created_time'], date('Y-m-d H:i:s') ?></td>
 						<td class="f-14">
 						<!-- <a style="text-decoration:none" onclick="admin_role_edit('角色编辑','role_add.html','1')" href="javascript:;" title="编辑"><i class="Hui-iconfont"></i></a> -->
 						 <a style="text-decoration:none"  class="del ml-5" onclick="admin_role_del(this,'1')" href="javascript:;" title="删除"><i class="Hui-iconfont del"></i></a>
 						 </td>
 					</tr>
+				<?php endforeach ?>
 				</tbody>
 			</table>
 			</div>
