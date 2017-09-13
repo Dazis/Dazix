@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:63:"D:\gg\thinkphp\public/../application/index\view\photo\show.html";i:1505208814;s:66:"D:\gg\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:64:"D:\gg\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:66:"D:\gg\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:63:"D:\gg\thinkphp\public/../application/index\view\photo\show.html";i:1505271956;s:66:"D:\gg\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:64:"D:\gg\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:66:"D:\gg\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -166,7 +166,7 @@
 	<nav class="breadcrumb"><i class="Hui-iconfont"></i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 产品管理 <a title="刷新" href="javascript:location.replace(location.href);" style="line-height:1.6em;margin-top:3px" class="btn btn-success radius r"><i class="Hui-iconfont"></i></a></nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
-			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a class="btn btn-danger radius" onclick="datadel()" href="javascript:;"><i class="Hui-iconfont"></i> 批量删除</a> <a  href="<?php echo url('Photo/add'); ?>" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加产品</a> </span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
+			<div class="cl pd-5 bg-1 bk-gray"> <a  href="<?php echo url('Photo/add'); ?>" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加轮播图</a> </span>  </div>
 			<div class="mt-10">
 			<table class="table table-border table-bordered table-hover table-bg">
 				<thead>
@@ -184,7 +184,8 @@
 						<th width="200">是否显示</th>
 						<th width="70">操作</th>
 					</tr>
-				</thead id="dian">
+				</thead>
+				<tbody id="dian">
 				<?php foreach ($res as $key => $value): ?>
 					<tr class="text-c">
 						<td width="25"><input type="checkbox" name="" value=""></td>
@@ -193,14 +194,13 @@
 						<td width="200"><img src="../../../uploads/<?= $value['imgtwo'] ?>" alt="" width="50x;"></td>
 						<td width="200"><img src="../../../uploads/<?= $value['imgthree'] ?>" alt="" width="50x;"></td>
 						<td width="200"><img src="../../../uploads/<?= $value['imgfour'] ?>" alt="" width="50x;"></td>
-						<td width="200"><?= $value['created_time'], date('Y-m-d H:i:s') ?></td>
+						<td width="200"><?= $value['created_time']?></td>
 						<td width="200" class="xiugai" id="<?= $value['id'] ?>" opt="<?= $value['status'] ?>"><?= $value['status'] == 0 ? '关闭' : '开启'?></td>
 						<td width="70">
-							<a style="text-decoration:none"  class="del ml-5" onclick="admin_role_del(this,'1')" href="javascript:;" title="删除"><i class="Hui-iconfont del"></i></a>
+							<a style="text-decoration:none" class="ml-5" href="javascript:void(0);" id="<?= $value['id'] ?>" title="删除"><i class="Hui-iconfont"></i></a>
 						</td>
 					</tr>
 				<?php endforeach ?>
-				<tbody>
 				</tbody>
 			</table>
 			</div>
@@ -261,6 +261,30 @@ function admin_role_del(obj,id){
 						}
 					}else{
 						alert('修改失败');
+					}
+				}
+			})
+		})
+
+		$('#dian').delegate('.ml-5', 'click', function(){
+			var id = $(this).attr('id');
+
+			var agg=window.confirm("您确定要删除吗？");
+			if(!agg){
+			    return;
+			}
+			$.ajax({
+				type: 'get',
+				url : 'del',
+				data: {id:id},
+				dataType: 'json',
+				success:function(msg){
+					if(msg['status'] == 1){
+						n = $(this).parents("tr").index();
+						$("#dian").find("tr:eq("+n+")").remove();
+						alert('删除成功');
+					}else{
+						alert('删除失败');
 					}
 				}
 			})

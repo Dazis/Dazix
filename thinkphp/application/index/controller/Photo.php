@@ -47,4 +47,14 @@ class Photo extends \think\Controller
             echo json_encode(array('status'=>0));
         }
     }
+    public function del(){
+        $id = input('id');
+        $model = new Photos;
+        $res = $model -> del($id);
+        if($res){
+            echo json_encode(array('status'=>1, 'res'=>$res));
+        }else{
+            echo json_encode(array('status'=>0, 'res'=>$res));
+        }
+    }
 }

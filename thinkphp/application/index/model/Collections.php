@@ -6,5 +6,9 @@ class Collections extends \think\Model{
         $res = db('collection')->select();
         return $res;
     }
+    public function del($id){
+    	$res = db('collection') ->where('id', $id) ->  delete();
+        return $res;
+    }
 }
  ?>

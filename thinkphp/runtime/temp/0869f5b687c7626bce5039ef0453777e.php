@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:68:"D:\gg\thinkphp\public/../application/index\view\collection\show.html";i:1505271915;s:66:"D:\gg\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:64:"D:\gg\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:66:"D:\gg\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"D:\gg\thinkphp\public/../application/index\view\product\type_list.html";i:1505056320;s:66:"D:\gg\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:64:"D:\gg\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:66:"D:\gg\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -163,41 +163,39 @@
 <div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
 <!--/_menu 作为公共模版分离出去-->
 <section class="Hui-article-box">
-	<nav class="breadcrumb"><i class="Hui-iconfont"></i> 首页 <span class="c-gray en">&gt;</span> 采集管理 <span class="c-gray en">&gt;</span> 采集列表 <a title="刷新" href="javascript:location.replace(location.href);" style="line-height:1.6em;margin-top:3px" class="btn btn-success radius r"><i class="Hui-iconfont"></i></a></nav>
+	<nav class="breadcrumb"><i class="Hui-iconfont"></i> 首页 <span class="c-gray en">&gt;</span> 产品分类 <span class="c-gray en">&gt;</span> 分类管理 <a title="刷新" href="javascript:location.replace(location.href);" style="line-height:1.6em;margin-top:3px" class="btn btn-success radius r"><i class="Hui-iconfont"></i></a></nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
-
+			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a class="btn btn-danger radius" onclick="datadel()" href="javascript:;"><i class="Hui-iconfont"></i> 批量删除</a> <a  href="<?php echo url('Product/product_type_add'); ?>" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加分类</a> </span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
 			<div class="mt-10">
 			<table class="table table-border table-bordered table-hover table-bg">
 				<thead>
 					<tr>
-						<th colspan="8" scope="col">采集管理</th>
+						<th colspan="6" scope="col">角色管理</th>
 					</tr>
 					<tr class="text-c">
 						<th width="25"><input type="checkbox" name="" value=""></th>
-						<th width="40">标题</th>
-						<th width="100">图片</th>
-						<th width="100">介绍</th>
-						<th width="200">内容</th>
-						<th width="20">阅读量</th>
-						<th width="80">创建文章时间</th>
+						<th width="40">ID</th>
+						<th width="200">分类名称</th>
+						<th>汇率</th>
+						<th width="300">支持续投</th>
+						<th>增长率</th>
 						<th width="70">操作</th>
 					</tr>
 				</thead>
-				<tbody id="tbody">
-				<?php foreach ($res as $key => $value): ?>
+				<tbody>
 					<tr class="text-c">
 						<td><input type="checkbox" name="" value=""></td>
-						<td><?= $value['title'] ?></td>
-						<td><img src="http://www.gg.com/fuxi/09.12/<?= $value['img'] ?>" alt="" width="100px;;"></td>
-						<td><?= $value['intro'] ?></td>
-						<td><?= $value['content'] ?></td>
-						<td><?= $value['click'] ?></td>
-						<td><?= $value['created_time']?></td>
-						<td class="f-14"><!-- <a style="text-decoration:none" onclick="admin_role_edit('角色编辑','role_add.html','1')" href="javascript:;" title="编辑"><i class="Hui-iconfont"></i></a> --> 
-						<a style="text-decoration:none" class="ml-5" href="javascript:void(0);" id="<?= $value['id'] ?>" title="删除"><i class="Hui-iconfont"></i></a></td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td class="f-14">
+						<!-- <a style="text-decoration:none" onclick="admin_role_edit('角色编辑','role_add.html','1')" href="javascript:;" title="编辑"><i class="Hui-iconfont"></i></a> -->
+						 <a style="text-decoration:none" class="ml-5" onclick="admin_role_del(this,'1')" href="javascript:;" title="删除"><i class="Hui-iconfont"></i></a>
+						 </td>
 					</tr>
-				<?php endforeach ?>	
 				</tbody>
 			</table>
 			</div>
@@ -207,7 +205,6 @@
 <script type="text/javascript" src="/thinkphp/public/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <!-- <script type="text/javascript" src="/thinkphp/public/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> -->
 <script type="text/javascript" src="/thinkphp/public/static/lib/laypage/1.2/laypage.js"></script>
-<script src="/thinkphp/public/static/js/jquery.min.js"></script>
 <script type="text/javascript">
 /*管理员-角色-添加*/
 function admin_role_add(title,url,w,h){
@@ -227,33 +224,6 @@ function admin_role_del(obj,id){
 		layer.msg('已删除!',{icon:1,time:1000});
 	});
 }
-</script>
-<script>
-	$(function(){
-		$('#tbody').delegate('.ml-5', 'click', function(){
-			var id = $(this).attr('id');
-
-			var agg=window.confirm("您确定要删除吗？");
-			if(!agg){
-			    return;
-			}
-			$.ajax({
-				type: 'get',
-				url : 'del',
-				data: {id:id},
-				dataType: 'json',
-				success:function(msg){
-					if(msg['status'] == 1){
-						n = $(this).parents("tr").index();
-						$("#tbody").find("tr:eq("+n+")").remove();
-						alert('删除成功');
-					}else{
-						alert('删除失败');
-					}
-				}
-			})
-		})
-	})
 </script>
 <!--_footer 作为公共模版分离出去-->
 <script type="text/javascript" src="/thinkphp/public/static/lib/jquery/1.9.1/jquery.min.js"></script> 

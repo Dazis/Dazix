@@ -29,5 +29,9 @@ class Photos extends \think\Model{
         $res = db('figure')->where($ids)->update($arr);
         return $res;
     }
+    public function del($id){
+        $res = db('figure') ->where('id', $id) ->  delete();
+        return $res;
+    }
 }
  ?>
