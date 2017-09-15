@@ -1,0 +1,84 @@
+{include file="common/header" /}
+{include file="common/menu" /}
+<section class="Hui-article-box">
+<div class="pd-20">
+  <form action="{:url('Product/product_add_do')}" method="post" class="form form-horizontal" id="form-user-add"  enctype="multipart/form-data">
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>标题昵称：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="title">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>健康介绍：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="intro">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>健康内容：</label>
+      <div class="formControls col-5">
+      <textarea name="content" id="" cols="30" rows="10" class="input-text"></textarea>
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+	<div class="row cl">
+      <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>标题图片：</label>
+        <div class="formControls col-5">
+          <input type="file" class="input-img" value="" placeholder="" id="user-name" name="img">
+        </div>
+        <div class="col-5"> </div>
+        <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>所属健康分类：</label>
+        <div class="formControls col-5">
+          <select name="id" id="" class="input-option">
+              <option value="">请选择所属分类</option>
+            <?php foreach ($res as $key => $value): ?>
+              <option value="<?= $value['id'];?>"><?= $value['type_name'];?></option>
+            <?php endforeach ?>
+          </select>
+        </div>
+      </div>
+
+    </div>
+      <div class="col-5"> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-9 col-offset-2">
+        <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+<!--_footer 作为公共模版分离出去--> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery/1.9.1/jquery.min.js"></script> 
+
+<!-- <script type="text/javascript" src="/thinkphp/public/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/thinkphp/public/static/static/h-ui/js/H-ui.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/static/h-ui.admin/js/H-ui.admin.page.js"></script>  -->
+<!--/_footer /作为公共模版分离出去--> 
+
+<!--请在下方写此页面业务相关的脚本--> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="/thinkphp/public/static/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	
+});
+</script>
+</body>
+</html>
+{include file="common/footer" /}

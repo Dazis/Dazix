@@ -1,0 +1,141 @@
+{include file="common/header" /}
+{include file="common/menu" /}
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont"></i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 产品管理 <a title="刷新" href="javascript:location.replace(location.href);" style="line-height:1.6em;margin-top:3px" class="btn btn-success radius r"><i class="Hui-iconfont"></i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="cl pd-5 bg-1 bk-gray"> <a  href="{:url('Photo/add')}" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加轮播图</a> </span>  </div>
+			<div class="mt-10">
+			<table class="table table-border table-bordered table-hover table-bg">
+				<thead>
+					<tr>
+						<th colspan="9" scope="col">轮播图管理</th>
+					</tr>
+					<tr class="text-c">
+						<th width="25"><input type="checkbox" name="" value=""></th>
+						<th width="40">轮播图标题</th>
+						<th width="200">轮播图图片1</th>
+						<th width="200">轮播图图片2</th>
+						<th width="200">轮播图图片3</th>
+						<th width="200">轮播图图片4</th>
+						<th width="200">创建轮播图时间</th>
+						<th width="200">是否显示</th>
+						<th width="70">操作</th>
+					</tr>
+				</thead>
+				<tbody id="dian">
+				<?php foreach ($info as $key => $value): ?>
+					<tr class="text-c">
+						<td width="25"><input type="checkbox" name="" value=""></td>
+						<td width="40"><?= $value['title'] ?></td>
+						<td width="200"><img src="../../../uploads/<?= $value['img'] ?>" alt="" width="50x;"></td>
+						<td width="200"><img src="../../../uploads/<?= $value['imgtwo'] ?>" alt="" width="50x;"></td>
+						<td width="200"><img src="../../../uploads/<?= $value['imgthree'] ?>" alt="" width="50x;"></td>
+						<td width="200"><img src="../../../uploads/<?= $value['imgfour'] ?>" alt="" width="50x;"></td>
+						<td width="200"><?= $value['created_time']?></td>
+						<td width="200" class="xiugai" id="<?= $value['id'] ?>" opt="<?= $value['status'] ?>"><?= $value['status'] == 0 ? '开启' : '关闭'?></td>
+						<td width="70">
+							<a style="text-decoration:none" class="ml-5" href="javascript:void(0);" id="<?= $value['id'] ?>" title="删除"><i class="Hui-iconfont"></i></a>
+						</td>
+					</tr>
+				<?php endforeach ?>
+				</tbody>
+			</table><br>
+			<center>
+				<a href="show.html?page=<?= $s ?>"><button>首页</button></a>
+				<a href="show.html?page=<?= $shang ?>"><button>上一页</button></a>
+				<a href="show.html?page=<?= $xia ?>"><button>下一页</button></a>
+				<a href="show.html?page=<?= $ss ?>"><button>尾页</button></a>
+			</center>
+			</div>
+		</article>
+	</div>
+</section>
+<script type="text/javascript" src="/thinkphp/public/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<!-- <script type="text/javascript" src="/thinkphp/public/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> -->
+<script type="text/javascript" src="/thinkphp/public/static/lib/laypage/1.2/laypage.js"></script>
+<script src="/thinkphp/public/static/js/jquery.min.js"></script>
+<script type="text/javascript">
+/*管理员-角色-添加*/
+function admin_role_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*管理员-角色-编辑*/
+function admin_role_edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*管理员-角色-删除*/
+function admin_role_del(obj,id){
+	layer.confirm('产品删除须谨慎，确认要删除吗？',function(index){
+		//此处请求后台程序，下方是成功后的前台处理……
+		var id = $(this).parent();
+		alert(id);
+		$.ajax({
+		   type: "POST",
+		   url: "{:url('Product/product_del')}",
+		   data: {id:id},
+		   success: function(msg){
+		    if (msg == '1') {
+		    	$(obj).parents("tr").remove();
+				layer.msg('已删除!',{icon:1,time:1000});
+		    }
+		   }
+		});
+	});
+}
+</script>
+<script>
+	$(function(){
+		$('.xiugai').click(function(){
+			var id = $(this).attr('id');	// ID
+			var opt = $(this).attr('opt');	// 状态值
+			// alert(opt);
+			var th = $(this);	// 当前对象
+			$.ajax({
+				type: 'get',
+				url: "{:url('Photo/update_zt')}",
+				data: {id:id,opt:opt},
+				dataType: 'json',
+				success:function(msg){
+					if(msg['status'] == 1){
+						alert('修改成功');
+						if(opt == 0){
+							th.attr('opt',1).html("关闭");
+						}else{
+							th.attr('opt',0).html("开启");
+						}
+					}else if(msg['status'] == 2){
+						alert('无法开启，请先关闭其他开启的轮播图');	
+					}else{
+						alert('修改失败');
+					}
+				}
+			})
+		})
+
+		$('#dian').delegate('.ml-5', 'click', function(){
+			var id = $(this).attr('id');
+
+			var agg=window.confirm("您确定要删除吗？");
+			if(!agg){
+			    return;
+			}
+			$.ajax({
+				type: 'get',
+				url : 'del',
+				data: {id:id},
+				dataType: 'json',
+				success:function(msg){
+					if(msg['status'] == 1){
+						n = $(this).parents("tr").index();	//获取所在行的顺序
+						$("#dian").find("tr:eq("+n+")").remove();
+						alert('删除成功');
+					}else{
+						alert('删除失败');
+					}
+				}
+			})
+		})
+	})
+</script>
+{include file="common/footer" /}
