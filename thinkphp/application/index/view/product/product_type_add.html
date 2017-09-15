@@ -3,27 +3,38 @@
 <section class="Hui-article-box">
 <div class="pd-20">
   <form action="{:url('Product/product_type_do')}" method="post" class="form form-horizontal" id="form-user-add">
-
     <div class="row cl">
-      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>父类</label>
-      <div class="formControls col-5">
-        <select class="select" name="type_id">
-          <option>请选择</option>
-          <?php foreach($model as $k=>$v){?>
-          <option value="<?= $v['id']?>"><?= $v['type_name']?></option>
-          <?php }?>
-        </select>
-      </div>
-      <div class="col-5"> </div>
-    </div>
-
-     <div class="row cl">
       <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>分类名称：</label>
       <div class="formControls col-5">
-        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="type_name">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="classname">
       </div>
       <div class="col-5"> </div>
     </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>汇率</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="rate">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+  <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>是否支持续投</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="status">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>增长率</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="" placeholder="" id="user-name" name="growthrate">
+      </div>
+      <div class="col-5"> </div>
+    </div>
+    
 
    <!--  <div class="row cl">
       <label class="form-label col-xs-4 col-sm-2">产品介绍：</label>
