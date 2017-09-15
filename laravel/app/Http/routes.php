@@ -15,10 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('test/index', 'TestController@index');
-
-
-//王勃深
-Route::any('index/show', 'IndexController@show');
-Route::any('index/article_list', 'IndexController@article_list');
-Route::any('index/type_list', 'IndexController@type_list');
+Route::any('figure/figureList', 'FigureController@figureList');	// 展示数据

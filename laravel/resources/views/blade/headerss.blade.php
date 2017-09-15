@@ -14,10 +14,6 @@
 <meta property="og:image" content="http://sohu-media.bjcnc.scs.sohucs.com/web/static/images/sohu_logo.png"/>
 <meta property="og:url" content="www.sohu.com/a/191051027_103630"/>
 <meta property="og:release_date" content="2017-09-10 19:20"/>
-<meta name="site" content="content site">
-<meta name="Site" content="content Site">
-<meta name="title" content="content title">
-<meta name="Title" content="content Title">
 <link rel="canonical" href="www.sohu.com/a/191051027_103630"/>
 <link rel="alternate" media="only screen and(max-width: 640px)" href="m.sohu.com/a/191051027_103630"/>
 
@@ -31,7 +27,6 @@
 <link rel="apple-touch-icon" sizes="72x72" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-72.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-114.png" />
 <link rel="apple-touch-icon" sizes="144x144" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-144.png" />
-<link rel="stylesheet" href="../css/share.min.css">
 <link href="../css/main-8444a11c0e_1.css" rel="stylesheet"/>
 <script>
     //  加载监控代码
