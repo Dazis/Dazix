@@ -3,9 +3,17 @@ namespace app\index\controller;
 
 use \app\index\model\Article_type;
 use \app\index\model\Article;
+use \think\Session;
 
 class Product extends \think\Controller
 {
+    public function __construct(){
+        parent::__construct();
+        $session = Session::get('name');
+        if($session==""){
+            $this->error('请先登录', 'Login/index');
+        }
+    }
     //产品管理列表
     public function pro_list(){
         $model  = new Article();
@@ -63,6 +71,16 @@ class Product extends \think\Controller
         $id      = $request->post('id');
         $model   = new Article();
         $del     = $model->del($id);
+
+        return $del;
+    }
+    //删除分类
+    public function del_article_type(){
+        $request = \think\Request::instance();
+        $id      = $request->post('id');
+        $model = new Article_type();
+        $del = $model->del($id);
+        // print_r($del);
         return $del;
     }
     //产品分类列表
@@ -99,6 +117,7 @@ class Product extends \think\Controller
         $model = new Article_type();
         $model = $model->selFather();
         $this->assign('model',$model);
+        // print_r($model);die;
         return $this->fetch('product_type_add');
     }
     public function product_type_do(){
@@ -120,5 +139,16 @@ class Product extends \think\Controller
             }
         }
         return $data;
+    }
+    public function searchs(){
+        $request = \think\Request::instance();
+        $data    = $request->post('val');
+        $Article = new Article();
+        $res = $Article->searchs($data);
+        // $page = $res->render();
+        // $this->assign('list', $list);
+        // $this->assign('page', $page);
+
+        return  $res;
     }
 }

@@ -33,10 +33,20 @@ class Article_type extends Model
 		$user               = new Article_type;
 		$user->type_name    = $datas['type_name'];
 		$user->p_id         = $datas['type_id'];
-		$user->add_time     = time();
-		$user->statue       = '0';
+		$user->add_time     = date("Y-m-d H:i:s");
+		$user->statue       = '1';
 		$user->save();
 		return $user;
+	}
+	public function del($id){
+		$sel = DB::query("select * from article_type where id='$id'");
+		if ($sel[0]['p_id']==0) {
+			return '3';
+		} else{
+			$data = DB::query("delete from article_type where id ='$id'");
+			return $data;
+		}
+		
 	}
 }
 

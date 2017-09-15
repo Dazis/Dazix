@@ -16,7 +16,7 @@
 						<th width="40">ID</th>
 						<th width="200">分类名称</th>
 						<th>添加时间</th>
-						<th width="300">状态值</th>
+						<!-- <th width="300">状态值</th> -->
 						<th width="70">操作</th>
 					</tr>
 				</thead>
@@ -27,13 +27,8 @@
 						<td><?= $v['id']?></td>
 						<td><?= $v['nbsp']?><?= $v['type_name']?></td>
 						<td><?= $v['add_time']?></td>
-						<?php if($v['statue']=='1'){ ?>
-						<td><span>√</span></td>
-						<?php }else{ ?>
-						<td><span>×</span></td>
-						<?php } ?>
 						<td class="f-14">
-						 <a style="text-decoration:none" class="ml-5" onclick="admin_role_del(this,'1')" href="javascript:;" title="删除"><i class="Hui-iconfont"></i></a>
+						 <a style="text-decoration:none" urls="<?= $v['id']?>" class="ml-5 td-status" onclick="admin_role_del(this,'1')" href="javascript:;" title="删除"><i class="Hui-iconfont"></i></a>
 						 </td>
 					</tr>
 				<?php } ?>
@@ -59,10 +54,23 @@ function admin_role_edit(title,url,id,w,h){
 function admin_role_del(obj,id){
 	layer.confirm('角色删除须谨慎，确认要删除吗？',function(index){
 		//此处请求后台程序，下方是成功后的前台处理……
-		
-		
-		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
+		var id = ($(obj).parents("tr").find(".td-status").attr('urls'));
+		$.ajax({
+		    type: "POST",
+		    url: "{:url('Product/del_article_type')}",
+		    data: {id:id},
+		    success: function(msg){
+		    	// alert(msg);
+		    	if(msg == 3) {
+					// $(obj).parents("tr").remove();
+					layer.msg('不能删除总分类!',{icon:1,time:1000});
+		    	} else {
+		    		$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+		    	}
+		    	
+		    }
+		});
 	});
 }
 </script>

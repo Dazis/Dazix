@@ -1,0 +1,153 @@
+---------------------------------------------------------------
+[ 2017-09-13T19:37:21+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/
+[ info ] www.souhujiankang.com/thinkphp/public/ [运行时间：0.126257s][吞吐率：7.92req/s] [内存消耗：1,001.47kb] [文件加载：31]
+[ info ] [ LANG ] D:\domainname\Souhujiankang\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=3902348288; pgv_si=s6356756480',
+  'referer' => 'http://www.souhujiankang.com/thinkphp/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.souhujiankang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\domainname\Souhujiankang\thinkphp\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-13T19:37:29+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/index/page1
+[ info ] www.souhujiankang.com/thinkphp/public/index.php/index/index/page1 [运行时间：0.028454s][吞吐率：35.14req/s] [内存消耗：1,051.10kb] [文件加载：33]
+[ info ] [ LANG ] D:\domainname\Souhujiankang\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'page1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=3902348288; pgv_si=s6356756480',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.souhujiankang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->page1[ D:\domainname\Souhujiankang\thinkphp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\index\page1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-13T19:37:33+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/product/pro_list.html
+[ info ] www.souhujiankang.com/thinkphp/public/index.php/index/product/pro_list.html [运行时间：0.102368s][吞吐率：9.77req/s] [内存消耗：1,052.02kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Souhujiankang\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'pro_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=3902348288; pgv_si=s6356756480',
+  'referer' => 'http://www.souhujiankang.com/thinkphp/public/index.php/index/index/page1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.souhujiankang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Session' not found[D:\domainname\Souhujiankang\thinkphp\application\index\controller\Product.php:11]
+---------------------------------------------------------------
+[ 2017-09-13T19:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/product/pro_list.html
+[ info ] www.souhujiankang.com/thinkphp/public/index.php/index/product/pro_list.html [运行时间：0.040257s][吞吐率：24.84req/s] [内存消耗：1,189.95kb] [文件加载：36]
+[ info ] [ LANG ] D:\domainname\Souhujiankang\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'pro_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=3902348288; pgv_si=s6356756480',
+  'referer' => 'http://www.souhujiankang.com/thinkphp/public/index.php/index/index/page1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.souhujiankang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'ses',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 3600,
+)
+[ info ] [ VIEW ] D:\domainname\Souhujiankang\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-13T19:37:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp/public/index.php/index/login/index.html
+[ info ] www.souhujiankang.com/thinkphp/public/index.php/index/login/index.html [运行时间：0.025673s][吞吐率：38.95req/s] [内存消耗：1,170.07kb] [文件加载：35]
+[ info ] [ LANG ] D:\domainname\Souhujiankang\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=3902348288; pgv_si=s6356756480; PHPSESSID=6pb994ldt1ri9ocuo4mc6e1c11',
+  'referer' => 'http://www.souhujiankang.com/thinkphp/public/index.php/index/product/pro_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0',
+  'host' => 'www.souhujiankang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\domainname\Souhujiankang\thinkphp\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

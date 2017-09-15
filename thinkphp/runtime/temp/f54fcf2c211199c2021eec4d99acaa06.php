@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\product\pro_list.html";i:1505206370;s:88:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:86:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:88:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:91:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\product\pro_list.html";i:1505394173;s:88:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\header.html";i:1504188788;s:86:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\menu.html";i:1505100653;s:88:"D:\domainname\Souhujiankang\thinkphp\public/../application/index\view\common\footer.html";i:1504188778;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -166,18 +166,19 @@
 	<nav class="breadcrumb"><i class="Hui-iconfont"></i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 产品管理 <a title="刷新" href="javascript:location.replace(location.href);" style="line-height:1.6em;margin-top:3px" class="btn btn-success radius r"><i class="Hui-iconfont"></i></a></nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
-			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"> <a class="btn btn-danger radius" onclick="datadel()" href="javascript:;"><i class="Hui-iconfont"></i> 批量删除</a> <a  href="<?php echo url('Product/product_add'); ?>" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加产品</a> </span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
+			<div class="cl pd-5 bg-1 bk-gray"> <span class="l"><a  href="<?php echo url('Product/product_add'); ?>" class="btn btn-primary radius"><i class="Hui-iconfont"></i> 添加产品</a> </span> <span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span> </div>
 			<div class="mt-10">
-			<div class="text-c" style="margin-bottom:10px"> 
-				<input type="text" class="input-text" style="width:250px" placeholder=" 图片名称" id="" name="">
-				<button type="submit" class="btn btn-success" id="" name=""><i class="Hui-iconfont"></i> 搜索</button>
-			</div>
+			<!-- <div class="text-c val" style="margin-bottom:10px"> 
+
+				<input type="text" class="input-text vals" style="width:250px" placeholder=" 图片名称" id="" name="" value="">
+			
+				<button  class="btn btn-success sear" id="" name=""><i class="Hui-iconfont"></i> 搜索</button>
+			
+			</div> -->
 			<table class="table table-border table-bordered table-bg table-hover table-sort dataTable no-footer" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
 				<thead>
 					<tr class="text-c" role="row">
-						<th width="40" class="sorting_disabled" rowspan="1" colspan="1" style="width: 40px;" aria-label="">
-							<input type="checkbox" value="" name="">
-						</th>
+						
 						<th width="80" class="sorting_desc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 40px;" aria-sort="descending" aria-label="ID: 升序排列">ID
 						</th>
 						<th width="100" class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 100px;" aria-label="分类: 升序排列">文章标题</th>
@@ -193,10 +194,10 @@
 						</th>
 					</tr>
 				</thead>
-					<tbody>
+					<tbody id='bodys'>
 					<?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$user): $mod = ($i % 2 );++$i;?>
 					<tr class="text-c odd" role="row">
-							<td><input type="checkbox" value="" name=""></td>
+
 							<td class="sorting_1"><?php echo $user['id']; ?></td>
 							<td><?php echo $user['title']; ?></td>
 							<td><?php echo $user['brief_title']; ?></td>
@@ -211,11 +212,6 @@
 								<a  title="发布" href="javascript:;" onclick="<?php echo $user['ss']; ?>" style="text-decoration:none" class="asd">
 								<i class="btns Hui-iconfont"><?php echo $user['img']; ?></i>
 								</a>
-
-								<a title="编辑" href="javascript:;" onclick="picture_edit('图库编辑','picture-add.html','10001')" class="ml-5" style="text-decoration:none">
-								<i class="Hui-iconfont"></i>
-								</a> 
-
 								<a title="删除" href="javascript:;" onclick="picture_del(this,'10001')" class="ml-5" style="text-decoration:none">
 								<i class="Hui-iconfont"></i>
 								</a>
@@ -237,6 +233,7 @@
 <script type="text/javascript" src="/thinkphp/public/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <!-- <script type="text/javascript" src="/thinkphp/public/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> -->
 <script type="text/javascript" src="/thinkphp/public/static/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="/thinkphp/public/static/lib/laypage/1.2/jq.js"></script>
 <script type="text/javascript">
 $('.table-sort').dataTable({
 	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
@@ -366,7 +363,42 @@ function picture_del(obj,id){
 		
 	});
 }
-</script
+</script>
+<script>
+	$(document).on('click','.sear',function(){
+		var val=$('.vals').val();
+		$.ajax({
+		    type: "POST",
+		    url: "<?php echo url('Product/searchs'); ?>",
+		    data: {val:val},
+		    success: function(msg){
+		    	var str = "";
+		        $.each(msg,function(k,v){
+		        	var fb='<a  title="发布" href="javascript:;" onclick="'+v.ss+'" style="text-decoration:none" class="asd"><i class="btns Hui-iconfont">'+v.img+'</i></a>';
+		    		var del='<a title="删除" href="javascript:;" onclick="picture_del(this,"10001")" class="ml-5" style="text-decoration:none">';
+		        	str +='<tr class="text-c odd" role="row">';
+		        	str +='<td><input type="checkbox" value="" name=""></td>';
+		        	str +='<td class="sorting_1">'+v.id+'</td>';
+		        	str +='<td>'+v.title+'</td>';
+		        	str +='<td>'+v.brief_title+'</td>';
+		        	str +='<td><img width="100" src="'+v.image+'" class="picture-thumb"></td>';
+		        	str +='<td class="text-l" class="maincolor">'+v.type_id+'</td>';
+		        	str +='<td class="text-c">'+v.order_num+'</td>';
+		        	str +='<td>'+v.comment+'</td>';
+		        	str +='<td>'+v.article_kwd+'</td>';
+		        	str +='<td>'+v.add_time+'</td>';
+		        	str +='<td class="ben td-status" urls="'+v.id+'">'+v.status+'</td>';
+		        	str +='<td class="td-manage">';
+		        	str +=''+fb+'';
+		        	str +=''+del+'';
+		        	str +='<i class="Hui-iconfont"></i></a></td></tr>';
+		        })
+		        // alert(str);
+		        $('#bodys').html(str);
+		    }
+		});
+	})
+</script>
 <!--_footer 作为公共模版分离出去-->
 <script type="text/javascript" src="/thinkphp/public/static/lib/jquery/1.9.1/jquery.min.js"></script> 
 <script type="text/javascript" src="/thinkphp/public/static/lib/layer/2.4/layer.js"></script> 

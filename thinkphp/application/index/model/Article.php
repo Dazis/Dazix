@@ -3,6 +3,7 @@ namespace app\index\model;
 
 use think\Model;
 use think\DB;
+use \think\Session;
 
 class Article extends Model
 {
@@ -20,7 +21,10 @@ class Article extends Model
 		} else {
 			$img="";
 		}
+			$uname = Session::get('name');
+			// echo $uname;die;
         	$user               = new Article;
+        	$user->uname        = $uname;
 			$user->title        = $data['title'];
 			$user->brief_title  = $data['brief_title'];
 			$user->type_id      = $data['type_id'];
@@ -57,6 +61,12 @@ class Article extends Model
 	public function del($id){
 		$data = DB::query("delete from article where id ='$id'");
 		return $data;
+	}
+	//搜索
+	public function searchs($data){
+		$sel = DB::query("select * from article where title like '%$data%'; ");
+		// $list = Article::where("title LIKE '%$data%'")->paginate(5);
+		return $sel;
 	}
 }
 
