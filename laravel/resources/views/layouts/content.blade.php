@@ -1,32 +1,10 @@
 ﻿@include('blade.headerss')
-<style>
-.c-bd{width:700px;margin:115px auto;background:#fff;border:1px solid #c0c0c0;}
-.c-bdc{padding:90px 0 90px 70px;}
-.c-bdc .w-wb1{margin:35px 0 0;}
-
-.w-wb1 .wb10{overflow:hidden;display:block;width:38px;height:35px;text-indent:-9999px;background:url(../style/images/img/tieba24.png) -43px 0 no-repeat;}
-.w-wb1 .wb10:hover{background-position:1px 0;}
-
-/* 微信分享弹层样式 */
-.towdimcodelayer{position:absolute;left:-50px;top:-215px;z-index:10000;margin-top:0;opacity:0;filter:alpha(opacity=0);}
-.js-transition{transition:margin-top .15s ease,opacity .12s linear;-webkit-transition:margin-top .15s ease,opacity .12s linear;-moz-transition:margin-top .18s ease,opacity .15s linear;-ms-transition:margin-top .15s ease,opacity .12s linear;-o-transition:margin-top .15s ease,opacity .12s linear;}
-.towdimcodelayer .arrow{position:absolute;width:0;height:0;border-width:8px;border-style:solid;_display:none;}
-.towdimcodelayer .js-arrow-up{left:72px;top:-15px;border-color:transparent transparent #191919 transparent;}
-.towdimcodelayer .js-arrow-down{left:72px;bottom:-15px;border-color:#191919 transparent transparent transparent;}
-.towdimcodelayer .layerbd{width:100px;height:150px;padding:30px 30px 0 30px;background:#191919;box-shadow:0 1px 3px #000;-webkit-box-shadow:0 1px 3px #000;-moz-box-shadow:0 1px 3px #000;-o-box-shadow:0 1px 3px #000;}
-.towdimcodelayer .codebg{width:75px;height:75px;padding:13px 12px 12px 13px;background:#fff;}
-.towdimcodelayer .codebg img{width:75px;height:75px;}
-.towdimcodelayer .codettl{height:22px;line-height:22px;margin-top:5px;color:#888;font-size:12px;}
-.js-show-up{margin-top:15px;opacity:1;filter:alpha(opacity=100);}
-.js-show-down{margin-top:-15px;opacity:1;filter:alpha(opacity=100);}
-</style>
-<link href="../style/css/pt_lib_macro.css" type="text/css" rel="stylesheet"/>
-    <div class="location area">
+  <div class="location area">
         <span class="sohu-logo"><a href="/">搜狐</a></span>&gt;<a href="//health.sohu.com" data-role="channelLink" target="_blank">健康</a>&gt;<span data-role="category-name" style="display:none"><em style="margin:0 8px;"></em>&gt;</span><span class="dir-end">正文</span>
     </div>             <div class="area clearfix" id="article-container">
                 <div class="column left">
 	<div class="user-info" id="user-info">
-    <!-- <div class="user-pic">
+    <div class="user-pic">
         <a href="http://mp.sohu.com/profile?xpt=dGFueGpfcHVtY2hAc29odS5jb20=&_f=index_pagemp_1" target="_blank"><img src="../picture/dba9dd83e2ec40b485030ca4f0f89a9f.gif" alt=""></a>
     </div>
     <h4><a href="http://mp.sohu.com/profile?xpt=dGFueGpfcHVtY2hAc29odS5jb20=&_f=index_pagemp_1" target="_blank">协和妇产谭先杰</a></h4>
@@ -34,53 +12,28 @@
         <dd><span class="value" data-value="192" data-role="info-article-num"><em class="num"></em></span>文章</dd>
         <dd><span class="value" data-value="" data-role="info-read-num"><em class="num"></em></span>总阅读</dd>
     </dl>
-    <div class="user-more"><a href="http://mp.sohu.com/profile?xpt=dGFueGpfcHVtY2hAc29odS5jb20=&_f=index_pagemp_2" target="_blank">查看TA的文章&gt;</a></div> -->
-</div>	<div class="article-dos" id="article-dos">
-		<div class="article-dones">
-    <div style="margin-top:30px;">
-    <center>
-        <hr>
-        分享到
-        <ul class="w-wb1">
-                <li class="f-pr">
-                    <a href="javascript:void(0)" class="wb11" onmouseover="onMouseoverXCode()" onmouseout="onMouseoutXCode()">分享到微信</a>
-                    <div class="towdimcodelayer js-transition" id="layerWxcode">
-                        <div class="arrow js-arrow-down"></div>
-                        <div class="layerbd">
-                            <div class="codebg"><img class="xtag" src="http://www.lofter.com/genBitmaxImage?url=http://www.jq-school.com/?act=qbwzywxfx_20141226_01"></div>
-                            <div class="codettl">打开微信扫一扫</div>
-                        </div>
-                    </div>
-                </li>
-                <!-- @foreach ($data as $user) -->
-
-                <li><a href="#" onclick="dolog('qzone', function(){window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title=' + encodeURIComponent('<?= $data[0]->title?>') + '&url=' + encodeURIComponent('http://www.souhujiankangs.com/Dazis/laravel/public/index/show') , '_parent', ['toolbar=0,status=0,resizable=1,width=600,height=520,left=',(screen.width-600)/2,',top=',(screen.height-520)/2].join(''));return false;});" class="wb5" title="分享到QQ空间">分享到QQ空间</a></li>
-                <!-- @endforeach -->
-
-    </center>
-    </div>
+    <div class="user-more"><a href="http://mp.sohu.com/profile?xpt=dGFueGpfcHVtY2hAc29odS5jb20=&_f=index_pagemp_2" target="_blank">查看TA的文章&gt;</a></div>
+</div>	<div class="article-do" id="article-do">
+		<div class="article-done">
     <dl>
 
-        <!-- <dd class="comment-do"><a href="#comment_area"><span class="num" data-role="comment-count"></span><em class="comment-icon icon"></em></a></dd> -->
+        <dd class="comment-do"><a href="#comment_area"><span class="num" data-role="comment-count"></span><em class="comment-icon icon"></em></a></dd>
         <!--<dd class="zan-do" data-role="like-btn"><a href="javascript:void(0)"><span class="num" data-role="like">0</span><em class="icon zan-icon"></em></a>
 
             <span class="add-one">+1</span>
         </dd>-->
     </dl>
 </div>
-		<!-- <div class="share" id="share">
+		<div class="share" id="share">
 
-		</div> -->
+		</div>
 
 	</div>
 
-</div>  
-@foreach ($data as $user)
-
-<div class="left main">
+</div>                <div class="left main">
                     <div class="text">
                         <div class="text-title">
-    <h1>{{ $user->title }}<span class="article-tag">
+    <h1>CCTV《面对面》：手术背后<span class="article-tag">
                  </span>
     </h1>
             <div class="article-info">
@@ -91,12 +44,22 @@
             </div>
 </div>
 <article class="article">
-     {{ $user->message }}
+      <p data-role="original-title" style="display:none">原标题：CCTV《面对面》：手术背后</p>
+            <p><img src="../picture/2331980319cf47f3b45df61dd8a18b3e.jpeg" /></p> 
+<p><span>《一台手术背后的故事》</span>6<span>月</span>26<span>号在我的公众号上发表之后，数小时内阅读量即突破10万+，点赞一万七千多，留言近</span>800<span>条，在搜狐等平台的阅读量则更多。引起如此广泛的共鸣，远远超出了我这个小号的预期。</span></p> 
+<p><span>更有幸的是，前段时间文章被中央电视台新闻频道《面对面》栏目组的领导和编导看中，安排我与著名主持人董倩女士对话了一小时。尽管董倩女士的提问都是善意的，但她一如既往的犀利，还是让我应对困难，希望我没有说太多的错话。</span></p> 
+<p><span>访谈中，我一直想表达手术背后的纠结和选择。我告诉栏目组，不要把故事中的医生形象拔得太高，我只是一个普通医生，与《面对面》栏目的理想访谈对象的距离还很大。所幸，《面对面》栏目的包容性很强。</span></p> 
+<p><img width="483" height="506" src="../picture/ab615e83f60e48c3b6fe39e55cf83cb8.jpeg" /></p> 
+<p><span>我仔细看完了所有留言，从这近800条留言中可以看出，公众看完《一台手术的故事》，看到的可能是医生的担当、责任和全力以赴。同行看到的，则可能是背后的纠结和担心。</span></p> 
+<p><span>访谈当中，有一小段我很压抑，就是我谈到回家后看到桌子上的孩子妈妈留下的纸条的时候。因为那一刻，我真正的感到，脱下白大褂，医生就是普通人。</span></p> 
+<p><span>无论回答得好还是不好，甚至有硬伤，但在当下的医患环境下，《一台手术背后的故事》和</span>《面对面》<span>的深度访谈，或许能让公众从另一个侧面了解外科医生，让公众知道医生的想法。当然，这些纠结和选择，在比我水平高的医生中可能不存在，或者隐藏得更好。</span></p> 
+<p><span>感谢栏目组的辛勤劳动。</span><strong><span><span>刚刚获悉，今晚（</span><span>9</span><span>月</span><span>10</span><span>日，周日）在</span><span>CCTV13 </span><span>新闻频道《面对面》第二板块播出，准确时间大约是21:50。明天（周一）0：15，2:45，4:15,14:10重播，</span></span></strong><span>欢迎朋友们到时收看。</span></p> 
+<p><span>今天是教师节，特别感谢在《一台手术的背后故事》中给予支持的郎景和院士、黄宇光教授、徐梅护士长及各位前辈的支持，谢谢您们。</span></p> 
 <p><span>点击[</span>一台手术背后的故事<span>]或文末的“阅读原文”按钮，阅读《一台手术背后的故事》。</span><a href="//www.sohu.com/?strategyid=00001 " target="_blank" title="点击进入搜狐首页" id="backsohucom" style="white-space: nowrap;"><span class="backword"><i class="backsohu"></i>返回搜狐，查看更多</span></a></p>      <p data-role="editor-name">责任编辑：<span></span></p>
 </article>
   <div class="statement">声明：本文由入驻搜狐号的作者撰写，除搜狐官方账号外，观点仅代表作者本人，不代表搜狐立场。</div>  <div class="article-oper">
     <div class="article-oper-1 left">
-        <span class="read-num">阅读 (<?= $data[0]->num?>)</span>
+        <span class="read-num">阅读 (<em data-role="pv" data-val="$articleStat.pv"></em>)</span>
     </div>
     <div class="article-oper-r right">
         <span class="uninterested" id="uninterested">
@@ -109,9 +72,8 @@
  
 
                         </div>
-@endforeach
 
-         <!--            <div class="user-god clear" id="user-post">
+                    <div class="user-god clear" id="user-post">
     <div class="user-god-pic"><a href="http://mp.sohu.com/profile?xpt=dGFueGpfcHVtY2hAc29odS5jb20="><img src="../picture/dba9dd83e2ec40b485030ca4f0f89a9f.gif" alt=""></a></div>
     <div class="user-god-link">
                 <dl>
@@ -123,7 +85,7 @@
             <dd>好大夫个人网站，可以回答问题</dd>
         </dl>
             </div>
-</div> -->
+</div>
 
                     <div class="article-recom clear" id="sogou-words">
 
@@ -229,8 +191,6 @@
 <script src="../js/282f20cdaef6436bbc864a19958c5073.js"></script>
 <script src="../js/main-f89ae5c422_1.js"></script>
 <script src="../js/pv_1.js"></script>
-<script src="../js/jquery.share.min.js"></script>
-<script src="http://www.sucaihuo.com/Public/js/jquery.js"></script> 
              <script>
 try{console.log("执行成功")
         window.sohu_mp.article({
@@ -305,27 +265,6 @@ catch(e){
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-<script type="text/javascript">
-   (function(window,document){
-        
-        document.uniqueID!=document.uniqueID&&!!location.hash&&(location.hash=location.hash);
-        window.focus();
-    })(this,document);
-  </script>
-  <script>
-function dolog(_info, _callback) {
-var img = new Image();
-img.onload=img.onerror=_callback;
-img.src = 'http://www.jq-school.com/images/logo.gif';
-}
 
-var layerWxcode = document.getElementById('layerWxcode');
-function onMouseoverXCode(){
-layerWxcode.className = 'towdimcodelayer js-transition js-show-up';
-}
-function onMouseoutXCode(){
-layerWxcode.className = 'towdimcodelayer js-transition';
-}
-</script>
     </body>
 </html>
