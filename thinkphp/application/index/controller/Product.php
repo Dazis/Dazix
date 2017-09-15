@@ -65,6 +65,14 @@ class Product extends \think\Controller
         $del     = $model->del($id);
         return $del;
     }
+    //shanchufenlei 
+    public function del_article_type(){
+        $request = \think\Request::instance();
+        $id      = $request->post('id');
+        $model   = new Article_type();
+        $data    = $model->del_type($id);
+        print_r($data);die;
+    }
     //产品分类列表
     public function type_list(){
         $data = new Article_type();

@@ -38,6 +38,16 @@ class Article_type extends Model
 		$user->save();
 		return $user;
 	}
+	public function del_type($id){
+		// return "123";
+		$data = DB::query("select * from article_type where id='$id'");
+		if($data[0]['p_id']==0){
+			return "2";
+		}else{
+		$data = DB::query("delete from article_type where id ='$id'");
+		return '1';
+		}
+	}
 }
 
 ?>
