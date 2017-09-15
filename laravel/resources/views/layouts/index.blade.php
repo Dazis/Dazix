@@ -1,24 +1,56 @@
 @include('blade.header')
-<div class="area clear god-channel-top" id="god-channel-top"></div>
+<div class="area clear god-channel-top" id="god-chan11nel-top"></div>
     <div class="area clear god-channel-top-fix" id="god-channel-top-fix">
-        <div class="search d1">
-            <form>
-              <input type="text" placeholder="搜索从这里开始...">
-              <button type="submit"></button>
-            </form>
-        </div>
+
+
+
+<div class="search d1">
+
+<script language=javascript>
+    function g(formname)
+    {
+        var url = "http://www.baidu.com/baidu";
+        if (formname.s[1].checked)
+        {
+            formname.ct.value = "2097152";
+        }
+        else
+        {
+            formname.ct.value = "0";
+        }
+        formname.action = url;
+        return true;
+    }
+ </SCRIPT>   
+
+ <form  onsubmit="return g(this)">
+                      <input type="text" placeholder="搜索从这里开始..." name="word">
+                      <button type="submit" value="搜索"><tton>
+                      <input name=tn type=hidden value="bds">
+                        <input name=cl type=hidden value="3">
+                        <input name=ct type=hidden>
+                        <input name=si type=hidden value="bbs.baidu.com">
+                        <input name=s type=hidden checked>
+                        <input name=s type=hidden>
+                    </form>
+
+
+ </div>
+
+                                                                                                                                                                                                                  
     </div>
 
     <div class="area clear" id="main-container">
         <div id="left-nav" class="column" style="visibility: hidden">
     <div class="channel-logo">
                 <a href="/">搜狐健康</a></div>
-            <div class="second-nav">
+            <div class="se0000000000000000000000000000cond-nav">
 <!--热点-->
 <div class="box box-hover common" data-role="left-hot-spots">
                 <h4><a href="javascript:void(0)">热点</a><em class="icon-angle-up"></em></h4>
          
                                                      <p><a href="//www.sohu.com/tag/64738" target="_blank">高血压</a>
+
                                           
                                                      <a href="//www.sohu.com/tag/64576" target="_blank">糖尿病</a></p>
                                           
